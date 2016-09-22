@@ -1,0 +1,37 @@
+Projet: ChessMovement
+
+Enoncé:
+
+Chaque fois que l'on appuie sur "Espace", l'objet "Chess Piece" se déplace aléatoirement sur l'échiquier en respectant les règles de déplacement d'une pièce d'échec donnée.
+(voir plus loin: règles de déplacement)
+
+Au départ du jeu, il obéit aux règles de déplacement du roi .
+
+A tout moment pendant le jeu, la règle de déplacement peut être modifiée en appuiant sur certaines touches
+
+- Q = Reine (Queen)
+- N = Cavalier (Knight)
+- R = Tour (Rook)
+- B = Fou (Bishop)
+- K = Roi (King)
+
+Note: le déplacement du pion est ignoré dans ce projet
+
+Règles de déplacement:
+
+- La reine peut se déplacer en diagonale, horizontale, ou verticale d'autant de cases que le permet l'échiquier
+- Le roi peut se déplacer en diagonale, horizontale ou verticale d'une seule case à la fois
+- Le cheval peut se déplacer de une case verticalement et deux cases horizontalement, ou de une case horizontalement et deux cases verticalement
+- Le fou peut se déplacer en diagonale d'autant de cases que le permet l'échiquier
+- La tour peut se déplacer en horizontale ou en verticale d'autant de cases que le permet l'échiquier
+
+Quelques astuces:
+- La largeur d'une case est exactement de 1.0x1.0
+- Commencez par implémenter le déplacement de la reine
+- Ne vous compliquez pas la tâche pour le déplacement du cavalier
+- Pensez au polymorphisme
+
+Pour aller plus loin:
+- Changer le modèle de "Chess Piece" pour correspondre à la pièce actuellement sélectionnée
+- Ajouter une animation au déplacement au lieu de modifier la position entre deux frames
+- 
